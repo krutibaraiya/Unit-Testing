@@ -1,0 +1,25 @@
+{
+  "name": "unit-testing",
+  "version": "1.0.0",
+  "description": "Test project for learning Mocha Chai",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "API",
+    "Testing"
+  ],
+  "author": "Kruti Baraiya",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "mocha": "^9.0.0",
+    "nodemon": "^2.0.7"
+  }
+}
