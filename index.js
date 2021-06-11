@@ -22,6 +22,10 @@ const items = [
 
 ]
 
+app.get('/', (req,res) => {
+    res.send('Hello, welcome to Rental API!')
+});
+
 //GET
 app.get('/api/items', (req,res) => {
     res.send(items);
